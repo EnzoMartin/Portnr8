@@ -1,0 +1,14 @@
+footer {
+    .col-xs-12 {
+        & > div {
+            border-top: 1px solid #e3e3e3;
+            padding: 40px 0;
+            font-size: 12px;
+            margin-top: 25px;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}

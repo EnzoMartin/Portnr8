@@ -1,0 +1,73 @@
+// Also used for the editor styles
+
+@import "variables";
+@import "bootstrap/mixins";
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,600italic);
+
+#tinymce body,
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #808080;
+    font-size:13px;
+    font-weight: normal;
+}
+
+#tinymce .script,
+.script {
+    font-family: 'Dancing Script','Open Sans', sans-serif;
+}
+
+// Text
+a {
+    color: $link-normal;
+
+    &:hover {
+        color: $link-hover;
+    }
+}
+
+#tinymce h1,#tinymce h2,#tinymce h3,#tinymce h4,#tinymce h5,#tinymce h6,
+h1,h2,h3,h4,h5,h6 {
+    color: #808080;
+    font-weight: bold;
+}
+
+#tinymce h1,
+h1 {
+    color: #a4373f;
+}
+
+#tinymce h2,
+h2 {
+    font-size: 25px;
+    color: #5f5f5f;
+}
+
+#tinymce h3,
+h3 {
+    font-size: 22px;
+}
+
+#tinymce h4,
+h4 {
+    font-size: 17px;
+}
+
+#tinymce h5,
+h5 {
+    font-size: 14px;
+}
+
+#tinymce h6,
+h6 {
+    font-size: 14px;
+    color: #a4373f;
+}
+
+
+// Elements
+hr {
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #ffffff;
+}

@@ -1,0 +1,20 @@
+body:not(.home) {
+    #page-bg {
+        background: #FFFFFF;
+        position: relative;
+    }
+
+    header {
+        margin-bottom: 0;
+    }
+
+    .container-background {
+        position: relative;
+    }
+
+    .post-image {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,131 @@
+/*!
+ * Roots 6.5.2
+ */
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+    background-color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    color: $color-normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+@media (max-width: $screen-md-min) {
+    #page-bg {
+        margin-top: -5px;
+    }
+}
+
+.main {
+    background-color: transparent;
+}
+
+#bg-wrapper {
+    margin-top: -110px;
+    background: #131311;
+
+    &.internal {
+        #main-bg {
+            height: 298px;
+
+            #main-buttons {
+                top: auto;
+                bottom: 75px;
+                text-align: right;
+                right: 150px;
+            }
+        }
+    }
+}
+
+.page-header {
+    border: none;
+    margin: 20px 0;
+    padding: 0;
+
+    h1 {
+        border-bottom: 1px solid #e3e3e3;
+        padding-bottom: 15px;
+    }
+}
+
+#main-bg {
+    margin: 0 auto;
+    width: 1440px;
+    height: 750px;
+    position: relative;
+
+    img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+    }
+}
+
+#main-buttons {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    text-align: center;
+
+    .btn {
+        padding: 10px 20px;
+        border-radius: 2px;
+
+        &.btn-danger {
+            margin-right: 15px;
+        }
+
+        &.btn-default {
+            background: none transparent;
+            color: #FFF;
+        }
+    }
+}
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main {
+    background-color: #FFFFFF;
+}
+
+/* Gallery Shortcode */
+.gallery-row {
+    padding: 15px 0;
+}
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+figure.alignnone {
+    margin-left: 0;
+    margin-right: 0;
+}
