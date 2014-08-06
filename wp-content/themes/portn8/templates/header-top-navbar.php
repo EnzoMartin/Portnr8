@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand hidden-sm" href="<?php echo home_url(); ?>/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png"/></a>
+            <a class="navbar-brand hidden-sm" href="<?php echo home_url(); ?>/"><img alt="Portnr 8" src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png"/></a>
         </div>
 
         <nav class="collapse navbar-collapse" role="navigation">
@@ -18,12 +18,12 @@
             ?>
             <ul class="nav navbar-nav navbar-right">
                 <li>
-	                <a target="_blank" href="<?php echo get_option('portn8_headerfacebook'); ?>">
+	                <a target="_blank" href="<?php echo get_option('portnr8_headerfacebook'); ?>">
 						<i class="fa fa-facebook"></i>
 	                </a>
                 </li>
 	            <li>
-	                <a target="_blank" href="<?php echo get_option('portn8_headergoogleplus'); ?>">
+	                <a target="_blank" href="<?php echo get_option('portnr8_headergoogleplus'); ?>">
 						<i class="fa fa-google-plus"></i>
 	                </a>
                 </li>

@@ -24,8 +24,14 @@ if(is_home() || is_front_page()){
 	    <div id="main-bg">
 	        <img src="<?php echo get_bloginfo('template_directory') . '/assets/img/' . ($isHome? 'home-bg.jpg' : 'internal-bg.jpg') ?>"/>
 		    <div id="main-buttons">
-			    <a href="<?php echo get_option('portn8_bannerlocation'); ?>" class="btn btn-danger">Our Location</a>
-			    <a href="<?php echo get_option('portn8_contactus'); ?>" class="btn btn-default">Contact Us</a>
+			    <?php
+		        $description = get_bloginfo('description');
+			    if($description != ''){
+			    ?>
+			    <h2><?php echo $description ?></h2>
+			    <?php } ?>
+			    <a href="<?php echo get_option('portnr8_bannerlocation'); ?>" class="btn btn-danger">Our Location</a>
+			    <a href="<?php echo get_option('portnr8_contactus'); ?>" class="btn btn-default">Contact Us</a>
 		    </div>
 	    </div>
     </div>

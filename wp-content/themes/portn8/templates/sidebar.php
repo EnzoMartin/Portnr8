@@ -5,6 +5,6 @@
     </div>
 	<?php dynamic_sidebar('sidebar-secondary'); ?>
 	<div class="sidebar-footer">
-		Have questions or comments? Please email us at <a href="mailto:<?php echo get_option('portn8_contactemail'); ?>"><?php echo get_option('portn8_contactemail'); ?></a>
+		Have questions or comments? Please email us at <a href="mailto:<?php echo get_option('portnr8_contactemail'); ?>"><?php echo get_option('portnr8_contactemail'); ?></a>
 	</div>
 </div>

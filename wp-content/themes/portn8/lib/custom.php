@@ -38,7 +38,7 @@ function themeoptions_update()
 
     // this is where validation would go
     foreach($_POST as $name => $value) {
-        update_option('portn8_'.$name, $value);
+        update_option('portnr8_'.$name, $value);
     }
 }
 
@@ -194,13 +194,13 @@ function themeoptions_page()
         <form id="custom-options" method="POST" action="">
             <input type="hidden" name="update_themeoptions" value="true" />
             <h3>General</h3>
-            <p><input type="text" name="contactemail" id="contactemail" value="<?php echo get_option('portn8_contactemail'); ?>"/> Contact email (used for sending emails from contact form)</p>
-            <p><input type="text" name="bannerlocation" id="bannerlocation" value="<?php echo get_option('portn8_bannerlocation'); ?>"/> URL to link the "Our Location" button to</p>
-            <p><input type="text" name="bannercontactus" id="bannercontactus" value="<?php echo get_option('portn8_bannercontactus'); ?>"/> URL to link the "Contact Us" button to</p>
-            <p><input type="text" name="headerfacebook" id="headerfacebook" value="<?php echo get_option('portn8_headerfacebook'); ?>"/> URL to link the header "Facebook" button to</p>
-            <p><input type="text" name="headergoogleplus" id="headergoogleplus" value="<?php echo get_option('portn8_headergoogleplus'); ?>"/> URL to link the header "Google+" button to</p>
+            <p><input type="text" name="contactemail" id="contactemail" value="<?php echo get_option('portnr8_contactemail'); ?>"/> Contact email (used for sending emails from contact form)</p>
+            <p><input type="text" name="bannerlocation" id="bannerlocation" value="<?php echo get_option('portnr8_bannerlocation'); ?>"/> URL to link the "Our Location" button to</p>
+            <p><input type="text" name="bannercontactus" id="bannercontactus" value="<?php echo get_option('portnr8_bannercontactus'); ?>"/> URL to link the "Contact Us" button to</p>
+            <p><input type="text" name="headerfacebook" id="headerfacebook" value="<?php echo get_option('portnr8_headerfacebook'); ?>"/> URL to link the header "Facebook" button to</p>
+            <p><input type="text" name="headergoogleplus" id="headergoogleplus" value="<?php echo get_option('portnr8_headergoogleplus'); ?>"/> URL to link the header "Google+" button to</p>
             <h3>Sidebar</h3>
-            <p><input type="text" name="sidebargooglemaps" id="sidebargooglemaps" value="<?php echo get_option('portn8_sidebargooglemaps'); ?>"/> URL to link the Location image to</p>
+            <p><input type="text" name="sidebargooglemaps" id="sidebargooglemaps" value="<?php echo get_option('portnr8_sidebargooglemaps'); ?>"/> URL to link the Location image to</p>
 	        <p><input type="submit" name="search" value="Update Options" class="button" /></p>
         </form>
     </div>

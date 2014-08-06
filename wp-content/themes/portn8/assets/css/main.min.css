@@ -4609,7 +4609,7 @@ body {
 
 #bg-wrapper {
   margin-top: -110px;
-  background: #131311; }
+  background: #252525; }
   #bg-wrapper.internal #main-bg {
     height: 298px; }
     #bg-wrapper.internal #main-bg #main-buttons {
@@ -4639,7 +4639,7 @@ body {
 
 #main-buttons {
   position: absolute;
-  top: 400px;
+  top: 390px;
   width: 100%;
   text-align: center; }
   #main-buttons .btn, #main-buttons body #cntctfrm_contact_form input[type=submit], body #cntctfrm_contact_form #main-buttons input[type=submit] {
@@ -4650,6 +4650,13 @@ body {
     #main-buttons .btn.btn-default, #main-buttons body #cntctfrm_contact_form input.btn-default[type=submit], body #cntctfrm_contact_form #main-buttons input.btn-default[type=submit] {
       background: none transparent;
       color: #FFF; }
+  #main-buttons h2 {
+    color: #c6c6c6;
+    font-size: 18px;
+    width: 650px;
+    text-align: center;
+    margin: 0 auto 40px;
+    text-shadow: 0px 1px 2px #000; }
 
 /* ==========================================================================
    Primary Content
@@ -4731,7 +4738,8 @@ header {
   header .navbar-brand {
     padding-top: 23px;
     padding-bottom: 19px;
-    height: auto; }
+    height: auto;
+    padding-right: 0; }
   header.navbar-default {
     background-color: rgba(0, 0, 0, 0.45);
     box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.75);
@@ -4754,7 +4762,7 @@ header {
         color: #FFF;
         background: none; }
     header.navbar-default .navbar-nav.navbar-right {
-      padding-top: 25px; }
+      padding-top: 27px; }
       header.navbar-default .navbar-nav.navbar-right > li {
         margin-right: 15px; }
         header.navbar-default .navbar-nav.navbar-right > li a {
